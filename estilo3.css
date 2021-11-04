@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 90vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+.form{
+	border: 1px solid red;
+	padding: 2em;
+	font-size: 1.2em;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+li{
+	margin: 1em;
+}
+
+label{
+	display: block;
+	cursor: pointer;
+}
+
+input[type="text"], button{
+	display: block;
+	width: 100%;
+	font-size: 1em;
+	height: 2em;
+	text-align: center;
+	border: 1px solid black;
+	outline: none;
+	border-radius: 20px;
+}

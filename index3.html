@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Posto de Gasolina </title>
+	<link rel="stylesheet" type="text/css" href="estilo3.css">
+</head>
+<body>
+<!--
+O custo de um carro novo ao consumidor é obtido com a seguinte fórmula:
+custo final = custo de fábrica + (custo de fábrica * percentual do distribuidor) + (custo de fábrica * percentual de impostos)
+
+O usuário terá uma tela para entrar com os valores:
+
+custo de fábrica => nome do input custoFabrica
+% distribuidor => nome do input percDistribuidor
+% impostos => nome do input percImpostos
+Valor final => nome do input valorfinal
+Deverá executar o cálculo e demonstrar o resultado no “valorfinal” quando clicar no botão “btncalcular”.
+-->
+
+<div class="form">
+	<ul>
+		<li><label for="custoFabrica"> Custo de Fábrica: </label>
+			<input type="text" name="custoFabrica" id="custoFabrica" requiredrequired>
+		</li>
+		<li>
+			<label for="percDistribuidor"> Porcentagem do Distribuidor: </label>
+			<input type="text" name="percDistribuidor" id="percDistribuidor" required>
+		</li>
+		<li>
+			<label for="percImpostos"> Porcentagem de Impostos: </label>
+			<input type="text" name="percImpostos" id="percImpostos" required>
+		</li>
+		<li>
+			<button onclick="calcular()">Calcular</button>
+		</li>
+		<li>
+			<label for="valorFinal"> Valor Final: </label>
+			<input type="text" name="valorFinal" id="valorFinal">
+		</li>
+	</ul>
+</div>
+</body>
+	
+<script src="script7.js"></script>
+</html>
